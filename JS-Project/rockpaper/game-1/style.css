@@ -1,0 +1,35 @@
+section{
+    height: 700px;
+}
+
+
+.cotainer{
+width: 350px;
+height: 150px;
+text-align: center;
+display: block;
+margin: auto;
+}
+.cotainer .row div{
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    background-color: bisque;
+    border-radius: 10px;
+font-size: 16px;
+}
+
+.cotainer .row div:hover,
+.cotainer p:hover{
+background-color: rgba(0, 234, 255, 0.555);
+color: white;
+}
+
+.cotainer p{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    display: none;
+    margin: auto;
+    background-color: antiquewhite;
+}

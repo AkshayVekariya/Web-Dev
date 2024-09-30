@@ -1,0 +1,31 @@
+Q 2
+
+1. **Hello, World!**: Create a web page that displays "Hello, World!" in an alert when a button is clicked.
+
+2. **Calculator**: Build a simple calculator that can add, subtract, multiply, and divide two numbers entered by the user.
+
+3. **Random Number Generator**: Create a webpage that generates a random number between 1 and 100 when a button is clicked and displays it on the screen.
+
+4. **Change Background Color**: Make a button that, when clicked, changes the background color of the webpage to a random color.
+
+5. **ToDo List**: Build a simple to-do list where users can add and remove tasks.
+
+6. **Image Slider**: Create an image slider that allows users to cycle through a set of images by clicking previous and next buttons.
+
+7. **Form Validation**: Make a form with input fields for name, email, and password. Implement basic validation to ensure that the email is in the correct format and the password is a certain length.
+
+8. **Simple Quiz**: Develop a basic quiz with multiple-choice questions. Display the score when the user completes the quiz.
+
+9. **Timer**: Create a countdown timer that starts when a button is clicked and displays the time remaining.
+
+10. **Analog Clock**: Build a simple analog clock that updates in real-time, displaying the current time.
+
+11. **Dropdown Menu**: Create a dropdown menu that shows/hides a list of options when a button is clicked.
+
+12. **Responsive Design**: Make a webpage that changes its layout when the screen size is below a certain threshold to demonstrate responsive design principles.
+
+13. **Toggle Password Visibility**: Add an eye icon button to a password input field that toggles the visibility of the entered password.
+
+14. **Dice Roller**: Create a dice roller that simulates rolling a six-sided die and displays the result.
+
+15. **Basic Animation**: Make an element (e.g., a div) move from one side of the screen to the other when a button is clicked.

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    p {
+        color: black;
+        font-size: 18px;
+    }
+</style>
+
+<body>
+    <input type="text" id="value">
+    <button onclick="add()">add</button>
+    <button onclick="display1()">display</button>
+
+    <p id="display"></p>
+</body>
+
+<script>
+    let input = document.getElementById("value")
+    let show = document.getElementById("display")
+
+    let addValue = input.value
+    let item = []
+    function add() {
+        console.log("value adding");
+        item.push(input.value)
+    }
+
+    function display1() {
+        console.log("i am run");
+        show.innerText = item
+    }
+    console.log(item)
+</script>
+
+</html>

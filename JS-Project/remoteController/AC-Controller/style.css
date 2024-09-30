@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 680px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.inner-container {
+    width: 500px;
+    height: 300px;
+    background-color: #251414ad;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 30px;
+}
+
+.Ac-Information div p{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+}
+
+.AC-controller{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+} 
+.AC-controller button{
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgb(73, 70, 70);
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(253, 148, 11, 0.399);
+}
+

@@ -1,0 +1,598 @@
+@import url(fonts/fontawesome-webfont.ttf);
+@import url(fonts/fontawesome-webfont.woff);
+@import url(fonts/fontawesome-webfont.woff2);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* header-top */
+
+.header-top{
+width: 100%;
+height: 50px;
+background-color: #000000;
+color: white;
+display: flex;
+justify-content: center;
+}
+
+.header-top-navigation {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-top-navigation div {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.header-top-navigation div i{
+ font-style: normal;
+}
+.header-top-navigation div span{
+    color: #ff8a1d;
+}
+
+
+/* header bottom */
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D1E2FE;
+}
+
+label.logo {
+    color: #0355cc;
+    font-size: 36px;
+    line-height: 80px;
+    font-weight: 700;
+    padding: 0 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: rgb(6, 1, 1);
+    font-size: 16px;
+    padding: 7px 13px;
+    font-weight: 400;
+    border-radius: 3px;
+    font-family: "Lato", sans-serif;
+    text-transform: capitalize;
+}
+
+.active {
+    color: #0355cc;
+}
+
+/* section -1 */
+
+.container-1 {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-evenly;
+    background-color: #D1E2FE;
+    color: #000000;
+}
+
+.inner-1 {
+    width: 40%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 50px;
+    bottom: 10px;
+}
+
+.inner-1 h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #0355cc;
+    line-height: 48px;
+}
+
+.inner-1 p {
+    font-size: 16px;
+    margin: 25px 0;
+    line-height: 23px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    color: #444444;
+}
+
+.inner-1 button {
+    width: 200px;
+    height: 50px;
+    background-color: #FE8A1C;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.inner-1 button:hover{
+    background-color: transparent;
+    color: #FE8A1C;
+    border: 2px solid #FE8A1C;
+}
+
+.container-1 img {
+    width: 37%;
+    height: 700px;
+}
+
+/* section-2 */
+
+.container-2 {
+    height: 850px;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 140px;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #726DAE;
+    box-shadow: 0 0 8px 1px #413b3b8f;
+}
+
+.box-2 {
+    background-color: #ff8a1d;
+    margin: 0 20px;
+    color: white;
+}
+
+.box span {
+    font-size: 70px;
+}
+
+.box h4 {
+    font-size: 25px;
+}
+
+.box:hover {
+    background-color: #ff8a1d;
+    color: white;
+}
+
+.inner-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+.detail h1 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #040000;
+    text-transform: uppercase;
+}
+
+.detail p {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #040000;
+}
+
+.detail button {
+    width: 150px;
+    height: 40px;
+    background-color: #0355cc;
+    font-family: "Merriweather Sans", sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.detail button:hover {
+background-color: transparent;
+color: #0355cc;
+border: 2px solid #0355cc;
+}
+
+.img img {
+    width: 100%;
+}
+
+
+/* section 3 */
+
+.container-3 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D1E2FE;
+}
+
+.inner-4 img {
+    width: 500px;
+}
+
+.detail-2 {
+    width: 600px;
+}
+
+.detail-2 h1 {
+    width: 80%;
+    font-size: 34px;
+    font-weight: 700;
+    color: #0355cc;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.detail-2 p {
+    width: 500px;
+    color: #474747;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.detail-2 button {
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid #ff8a1d;
+    text-transform: uppercase;
+    color: white;
+    background-color: #ff8a1d;
+}
+
+.detail-2 button:hover {
+    color: #ff8a1d;
+    font-weight: 100;
+    background-color: transparent;
+    transition: ease-in;
+}
+
+/* section 4 */
+
+.container-4 {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-4 h1 {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.box-7 {
+    width:390px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: white;
+    color: rgb(66, 66, 66);
+    box-shadow: 0px 0px 4px 2px gray;
+    font-family: "Lato", sans-serif;
+    padding: 10px 30px;
+}
+
+.box-img{
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+}
+.box-img img{
+    max-width: 100%;
+    max-height:100% ;
+}
+
+.box-7:hover {
+    background-color: #ff8a1d;
+    color: white;
+}
+
+.box-7 h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.box-7 p {
+    font-family: 'lato',sans-serif;
+    text-align: center;
+    padding: 0;
+}
+
+.button {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button {
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid #0355cc;
+    background-color: #0355cc;
+    text-transform: uppercase;
+}
+
+.container-4 button:hover {
+    background-color: transparent;
+    color: #0355cc;
+}
+
+/* container-5 */
+
+.container-5 {}
+.container-5 h1 {}
+
+.container-5 .container {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-5 .container .row {
+    gap: 30px;
+}
+
+.client-info {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-detail {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.client-1,
+.client-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px !important;
+    height: 270px;
+    font-family: 'lato', sans-serif;
+    box-shadow: 0 0 4px 4px gray;
+}
+
+
+.client-detail img {
+    border-radius: 100px;
+}
+
+.client-name h5,
+.client-name .star i {
+    font-size: 16px;
+}
+
+.left-right {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.left-right i {
+    background-color: #0355cc;
+    width: 50px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.client-info i {
+    font-size: 26px;
+}
+
+/* section 6 */
+
+.container-6 {
+    height: 600px;
+}
+
+.container-6 .container h1 {
+    font-size: 40px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.form form input {
+    width: 500px;
+    height: 25px;
+    border: none;
+    padding: 25px;
+    font-size: 17px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.form form input:nth-child(4) {
+    height: 50px;
+}
+
+.form form button {
+    width: 150px;
+    height: 50px;
+    background-color: #0355cc;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    text-transform: uppercase;
+}
+
+.container-6 .container .row button:hover {
+    background-color: transparent;
+    border: 2px solid #0355cc;
+    color: #0355cc;
+}
+.map {
+    width: 100%;
+}
+.imap iframe{
+    width: 100%;
+}
+
+/* section 7 */
+
+.container-7 {
+    height:550px;
+    color: white;
+    background-color: #0A0F43;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    position: relative;
+}
+.container-7 .container{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    border-bottom:2px solid white;
+}
+
+.footer-info {
+    width: 100%;
+    display: flex;
+    gap: 60px;  
+    flex-direction: column
+}
+.footer-info h3 {
+    font-size: 30px;    
+    text-align: center;
+    font-family: "Merriweather Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+.log::before{
+    content: "";
+    position: absolute;
+    top: 160px;
+    width: 53%;
+    height: 1px;
+    background-color: #ffffff;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.inner-log {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.inner-log span{
+    width: 80px;
+    height: 80px;
+    background-color: #0355cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+.inner-log span:hover{
+    background-color: #ff8a1d;
+}
+
+.social {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.social h3 {
+    font-size: 23px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.social-logo {
+    width: 135px;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.social-logo img {  
+    width: 20px;
+}
+

@@ -1,0 +1,1 @@
+function click1();

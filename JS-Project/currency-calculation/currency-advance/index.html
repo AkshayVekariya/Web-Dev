@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency-converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+
+        <div class="section-innner">
+
+            <h1>currency-converter</h1>
+
+            <div class="currency-box">
+                <input type="number" id="input-first" class="pair">
+                <select name="currency" id="pair-one" class="select-currency">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+
+                <input type="number" id="input-second" class="pair">
+                <select name="currency" id="pair-second" class="select-currency">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+                <p id="currency-cal"></p>
+            </div>
+
+
+            <button onclick="convertCurrency()">convertCurrency</button>
+
+        </div>
+
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>

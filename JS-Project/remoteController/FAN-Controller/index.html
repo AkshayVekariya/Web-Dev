@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="fan-informtion">
+            <div >
+                <p>power:- </p>
+                <p id="power">off</p>
+
+            </div>
+            <div>
+                <p>current speed:-</p>
+                <p id="currentSpeed">0</p>
+            </div>
+            <div>
+                <p>swing:-</p>
+                <p id="swing">off</p>
+            </div>
+        </div>
+        <div class="Fan-controller">
+            <button onclick="fan.powerOnOff()">On-Off</button>
+            <button onclick="fan.swingOnOff()">swing</button>
+            <button onclick="fan.increaseSpeed()"> Increase speed</button>
+            <button onclick="fan.decreaseSpeed()">decrease speed</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

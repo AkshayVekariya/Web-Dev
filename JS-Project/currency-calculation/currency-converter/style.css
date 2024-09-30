@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left top, #40482870, #86b3bde1);
+}
+
+.section-innner {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(192, 199, 207);
+    border-radius: 20px;
+}
+
+.section-innner h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pair {
+    height: 30px;
+    border: none;
+    margin: 10px 10px;
+}
+
+.select-currency {
+    height: 30px;
+    width: 70px;
+    border: none;
+}

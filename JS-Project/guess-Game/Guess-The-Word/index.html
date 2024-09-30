@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess the word!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section>
+    <div class="container">
+        <h1>Guess the words</h1>
+        <div class="inner-container">
+            <p id="computer-word">words</p>
+            <div class="handle">
+                <input type="text" id="user-word" onkeypress="check(event)">
+                <button onclick="check(event)">submit</button>
+            </div>
+            <div>
+                <p id="lose-win"> </p>
+            </div>
+        </div> 
+    </div>
+</section>
+
+ <script src="script.js"></script>   
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch Data</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="UserData">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Username</th>
+              <th>Email</th>
+              <th>Phone</th>
+              <th>Website</th>
+              <th colspan="6" >Address</th> <!-- Merged header cell for Address -->
+              <th>Company Name</th>
+              <th>Catchphrase</th>
+              <th>Business Focus</th>
+            </tr>
+            <tr>
+              <!-- Empty cells for ID, Name, Username, Email, Phone, Website -->
+              <th colspan="6"></th> 
+              <th>Street</th>
+              <th>Suite</th>
+              <th>City</th>
+              <th>Zipcode</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <!-- Empty cells for Company Name, Catchphrase, Business Focus -->
+              <th colspan="3"></th>
+            </tr>
+          </thead>
+          <tbody id="data-fetch">
+            <!-- Data will be dynamically inserted here -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </body>
+  <script src="script.js" defer></script>
+</html>

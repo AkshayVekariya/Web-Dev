@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test-1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            SHOPING
+        </div>
+        <div class="list-nav">
+            <ol>
+                <li id="Electronics" onclick="searchMethodOnProduct()">All products</li>
+                <li id="Electronics" onclick="ElectronicsFunc()">Electronics</li>
+                <li id="Computers" onclick="ComputersFunc()">Computers</li>
+                <li  id="Accessories" onclick="AccessoriesFunc()">Accessories</li>
+                <li id="MobilePhones" onclick="MobilePhonesFunc()">Mobile Phones</li>
+                <li id="HomeAppliances" onclick="HomeAppliancesFunc()">Home Appliances</li>
+                <li id="Wearables" onclick="WearablesFunc()">Wearables</li>
+                <li id="PersonalCare" onclick=" PersonalCareFunc()">Personal Care</li>
+            </ol>
+            <div class="searchicon">
+                <input type="text" oninput="searchMethodOnProduct()" id="search" placeholder="Search...">
+             <button onclick="clear()"><img src ="search_24dp_1E124A_FILL0_wght400_GRAD0_opsz24.svg"> </button>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container" id="show-card">
+
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

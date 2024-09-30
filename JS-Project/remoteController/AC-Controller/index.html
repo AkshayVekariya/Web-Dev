@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC-controller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner-container">
+
+            <div class="Ac-Information">
+
+                <div class="ac-onOff">
+                    <p>power:-</p>
+                    <p id="On-Off">OFF</p>
+                </div>
+
+                <div>
+                    <p>swing:-</p>
+                    <p id="swing">OFF</p>
+                </div>
+
+                <div>
+                    <p>temp:-</p>
+                    <p id="temp">16</p>
+                </div>
+
+                <div>
+                    <p>mode:-</p>
+                    <p id="mode">Normal</p>
+                </div>
+            </div>
+
+            <div class="AC-controller">
+
+                <button onclick="acFunction.powerOn()">on-Off</button>
+
+                <button onclick="acFunction.swingOn()">swing </button>
+                <button onclick="acFunction.isMaxTempreture()">tempIncrease</button>
+
+                <button onclick="acFunction.isMinTempreture()">tempDecrease</button>
+
+                <button onclick="acFunction.Mode()">mode</button>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-box{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background: linear-gradient(#e66465, #9198e5);    /* background-color: rgba(224, 185, 46, 0.37); */
+}
+.input-box input{
+    width: 200px;
+    height: 50px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 10px;
+}
+.input-box button{
+    width: 200px;
+    height: 30px;
+    margin: 20px 0;
+    background-color: rgb(214, 71, 71);
+    color: white;
+border: none;
+border-radius: 10px;
+}
+
+.cb p{
+font-size: 22px;
+text-align: justify;
+}

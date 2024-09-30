@@ -1,0 +1,33 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <input type="number" id="input" />
+    <p id="p"></p>
+    <button onclick="addDash()">add dash</button>
+  </body>
+  <script>
+    const p = document.getElementById("p");
+    const userValue = document.getElementById("input");
+    let html = [];
+    function addDash() {
+        const userInput = userValue.value;
+      const newNuber = userInput;
+
+      for (let i in newNuber) {
+        if (newNuber[i] % 2 == 0 && newNuber[i - 1] % 2 == 0) {
+          html.push("-", newNuber[i]);
+        } else {
+          html.push(newNuber[i]);
+        }
+      }
+
+      html.toString();
+      p.innerText = html.join('');
+    }
+  </script>
+</html>

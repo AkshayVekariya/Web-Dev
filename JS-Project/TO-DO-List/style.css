@@ -1,0 +1,80 @@
+.container {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+    background-color: antiquewhite;
+}
+
+.container-inner {
+    width: 400px;
+    background-color: white;
+}
+
+.header-section {
+    border-bottom: 1px solid black;
+    text-align: start;
+    padding: 20px 10px;
+}
+
+.input-list {
+    margin: 10px;
+    padding: 20px;
+    line-height: 20px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.input input {
+    width: 70%;
+    height: 30px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.input button {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(17, 86, 170);
+    border: none;
+    color: white;
+}
+
+.list-note ul {
+    display: block;
+    width: 100%;
+    margin: auto;
+    list-style: none;
+    font-size: 20px;
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.list-note ul li {
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+border-radius: 10px;
+}
+
+.list-note ul li button {
+    width: 86px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid gray;
+    background-color: brown;
+}

@@ -1,0 +1,41 @@
+/* Basic styles for table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+  overflow-x: auto; /* Allows horizontal scrolling */
+}
+
+/* Make table container scrollable */
+.UserData {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* Ensure table cells wrap text and avoid overflow */
+th, td {
+  padding: 8px 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+thead th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+/* Make table responsive on smaller screens */
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  /* Adjust table layout on small devices */
+  th, td {
+    padding: 6px;
+    font-size: 14px;
+  }
+}

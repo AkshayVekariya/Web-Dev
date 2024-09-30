@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbbar */
+
+nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #696969;
+    color: #DCDCDC;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: rgb(53, 66, 66);
+}
+
+.list-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.list-nav ol {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+
+ol li {
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: #AFEEEE;
+    color: black;
+}
+
+ol li:hover {
+    background-color: #B0E0E6;
+    transform: scale(1.1);
+}
+
+.searchicon{
+    position: relative;
+}
+
+.searchicon input {
+    border: 2px solid LightGray;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    padding-right: 30px;
+    padding-left: 10px;
+    outline: none;
+}
+.searchicon button img{
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    cursor: pointer;
+}
+
+
+section {}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    padding: 20px; 
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background: DarkSlateGray;
+}
+
+.card {
+    width: 230px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    background-color: #708090;
+    font-size: 15px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px #535050;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container:hover .card {
+    filter: blur(4px);
+    opacity: 1;
+    transform: scale(1);
+}
+
+.container .card:hover {
+    filter: blur(0);
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #696969;
+    color: white;
+    border: 1px solid #708090;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #535050;
+}

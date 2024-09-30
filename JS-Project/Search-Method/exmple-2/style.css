@@ -1,0 +1,55 @@
+.consColor {
+    background-color: rgb(29, 32, 33);
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.card {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(rgba(114, 98, 144, 0.8576680672268908) 0%, rgba(100, 104, 96, 1) 100%);
+}
+
+#moviesList {
+    color: white;
+}
+
+.card-img-top {
+    height: 314px;
+    aspect-ratio: 2 / 3;
+}
+
+.type-rating {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+p {
+    width: 250px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+
+.consColor button {
+    display: inline;
+    width: 130px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
